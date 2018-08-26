@@ -1,0 +1,14 @@
+body{
+    background-color: darkolivegreen;
+}
+
+.description{
+    font-size: 15px;
+    color: red;
+
+}
+
+#header{
+    font-size: 35px;
+    color: purple;
+}

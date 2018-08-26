@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" herf="/style.css">
+</head>
+<body>
+<a href="/">Dodawanie SETa</a>
+<a href="/user">Dodawanie użytkownia</a>
+<h1 id="header">Nazwa SETa to</h1>
+
+
+<p class="description" th:text="${result.getName()}"></p>
+<h2>Opis SETa to</h2>
+<p class="description" th:text="${result.getDescription()}"></p>
+
+
+
+</body>
+</html>
